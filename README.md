@@ -96,7 +96,7 @@ npm start        # production
 
 Backend runs on: `http://localhost:5000`
 
-###23. Frontend Setup
+### 2. Frontend Setup
 
 ```bash
 cd ../frontend
