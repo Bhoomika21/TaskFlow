@@ -70,14 +70,7 @@ taskflow/
 - MongoDB running locally or a MongoDB Atlas URI
 - npm
 
-### 1. Clone the repository
-
-```bash
-git clone <your-repo-url>
-cd taskflow
-```
-
-### 2. Backend Setup
+### 1. Backend Setup
 
 ```bash
 cd backend
@@ -88,7 +81,7 @@ cp .env.example .env
 Edit `.env`:
 ```env
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/taskflow
+MONGO_URI=mongodb+srv://bhoomika:bhoomika_06@taskflow.vxsc2ju.mongodb.net/?appName=taskflow
 JWT_SECRET=replace_with_a_long_random_string
 JWT_EXPIRES_IN=7d
 NODE_ENV=development
@@ -103,7 +96,7 @@ npm start        # production
 
 Backend runs on: `http://localhost:5000`
 
-### 3. Frontend Setup
+###23. Frontend Setup
 
 ```bash
 cd ../frontend
